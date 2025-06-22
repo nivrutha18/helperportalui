@@ -1,0 +1,71 @@
+/* EditHelper.css */
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./assets/helping-hands-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .form-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .form-card h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #D2691E;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .form-card input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .form-card button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #D2691E;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-card button[type="submit"]:hover {
+    background-color: #a14b12;
+  }
+  
+  .back-link {
+    margin-top: 1rem;
+    text-align: center;
+    color: #D2691E;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  
